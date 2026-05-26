@@ -1,1 +1,47 @@
-/lung_cancer_detection/lung_subset_small
+# ========== Data Files ==========
+lung_subset_small/
+lung_subset_small_folder.zip
+*.zip
+
+# ========== Model Files ==========
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.pth
+*.pt
+model_info.pkl
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ========== Jupyter Notebook ==========
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========== Environment & IDE ==========
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========== OS Files ==========
+Thumbs.db
+.gitignore~
+
+# ========== Temporary Files ==========
+*.tmp
+*.log
+*.cache
